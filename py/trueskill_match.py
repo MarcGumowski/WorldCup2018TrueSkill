@@ -9,14 +9,19 @@
 
 import numpy as np
 import os
+import re
 import trueskill
 import math
 import matplotlib.pyplot as plt
 
+# ---------------------------------------------------------------------------- #
+
 # match-up parameter
 match_id = '4'
-Ateam = "Morocco"
-Bteam = "Iran"
+Ateam = "Portugal"
+Bteam = "Spain"
+
+# ---------------------------------------------------------------------------- #
 
 # TrueSkill parameters
 scale = [0, 10]
@@ -28,6 +33,11 @@ env.create_rating()
 # get latest rating
 os.chdir('C:/Users/Gumistar/Documents/GitHub/WorldCup2018TrueSkill/npy')
 latest_rating = max(os.listdir(os.getcwd()), key = os.path.getmtime)
+# control id not to predict in-sample
+control = re.search('[^._]+(?=[^_]*$)', latest_rating)[0]
+control = re.sub('[^0-9]', '', control)
+if int(control) == int(match_id):
+    latest_rating = max(sorted(os.listdir(os.getcwd()), key = os.path.getmtime)[:-1], key = os.path.getmtime)
 rating = np.load(latest_rating).item()
 
 # match-up
