@@ -25,8 +25,8 @@ gc()
 
 # Data ------------------------------------------------------------------------
 
-# Found on https://www.eloratings.net/
-rating <- fread("csv/teamRating_17_05_2018.csv", encoding = "UTF-8")
+# Found on https://www.eloratings.net/ and official FIFA ranking
+rating <- fread("csv/teamRating_15_06_2018.csv", encoding = "UTF-8")
 
 
 # Elo -------------------------------------------------------------------------
