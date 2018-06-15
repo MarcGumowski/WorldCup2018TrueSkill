@@ -25,6 +25,7 @@ gc()
 
 # Data ------------------------------------------------------------------------
 
+# Found on https://www.eloratings.net/
 rating <- fread("csv/teamRating_17_05_2018.csv", encoding = "UTF-8")
 
 
