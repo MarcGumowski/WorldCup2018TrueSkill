@@ -31,8 +31,8 @@ rating <- fread("csv/teamRating_17_05_2018.csv", encoding = "UTF-8")
 # Elo -------------------------------------------------------------------------
 
 # Matchup
-Ateam <- "Egypt"
-Bteam <- "Uruguay"
+Ateam <- "Morocco"
+Bteam <- "Iran"
 
 # Team
 a <- rating[Team %in% Ateam, ]
@@ -43,9 +43,11 @@ Aprob <- elo.prob(~ a$`Elo Rating` + b$`Elo Rating`)
 Bprob <- 1 - elo.prob(~ a$`Elo Rating` + b$`Elo Rating`)
 
 matchup <- data.table(team = c(Ateam, Bteam), prob = c(Aprob, Bprob))
+matchup[ ,team := factor(team, levels = team)]
 ggplot(matchup, aes(x = team, y = prob, fill = team)) +
   geom_col() +
-  ggtitle("Match-up winning probabilites based on Elo rating") +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.2), limits = c(0, 1)) + 
+  ggtitle("Match-up winning probabilities based on Elo rating") +
   scale_fill_manual(values = c("#DE7A22", "#6AB187")) +
   theme_bw() +
   guides(fill = FALSE)

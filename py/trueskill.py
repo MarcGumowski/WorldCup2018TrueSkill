@@ -1,3 +1,13 @@
+# ---------------------------------------------------------------------------- #
+# World Cup: TrueSkill
+# Ver: 0.01
+# ---------------------------------------------------------------------------- #
+#
+# Create initial rating for each player of the world cup
+# Run it first only once
+#
+# ---------------------------------------------------------------------------- #
+
 import numpy as np
 import os
 import trueskill
@@ -10,7 +20,7 @@ env = trueskill.TrueSkill(mu = mu, sigma = sigma)
 env.create_rating()
 
 # get data
-os.chdir("C:/Users\Marc Gumowski/Documents/GitHub/WorldCup2018TrueSkill")
+os.chdir('C:/Users/Gumistar/Documents/GitHub/WorldCup2018TrueSkill')
 rating = np.load("npy/rating_dict.npy").item()
 
 # clean
