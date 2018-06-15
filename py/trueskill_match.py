@@ -17,9 +17,9 @@ import matplotlib.pyplot as plt
 # ---------------------------------------------------------------------------- #
 
 # match-up parameter
-match_id = '4'
-Ateam = "Portugal"
-Bteam = "Spain"
+match_id = '5'
+Ateam = "France"
+Bteam = "Australia"
 
 # ---------------------------------------------------------------------------- #
 
