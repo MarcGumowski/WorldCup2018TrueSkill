@@ -8,15 +8,13 @@
 # ---------------------------------------------------------------------------- #
 
 import numpy as np
-import pandas as pd
-import datetime as dt
 import os
 import trueskill
 import math
 import matplotlib.pyplot as plt
 
 # match-up parameter
-match_id = '3'
+match_id = '4'
 Ateam = "Morocco"
 Bteam = "Iran"
 
@@ -60,37 +58,4 @@ plt.ylim(0, 1)
 plt.xticks(y_pos, bars)
 plt.show()
 
-# ---------------------------------------------------------------------------- #
 
-# After game parameters
-Ascore = 0
-Bscore = 1
-
-# get latest results
-os.chdir('C:/Users/Gumistar/Documents/GitHub/WorldCup2018TrueSkill')
-results = pd.read_csv('csv/results.csv')
-
-# Compute new rates
-new_rate = trueskill.rate([Acomp, Bcomp], [0, 0])
-for i, team in enumerate([Ateam, Bteam]):
-    for player in new_rate[i].keys():
-        rating[team][player] = new_rate[i][player]
-
-# append results
-if Ascore > Bscore:
-    Awin = 1
-elif Ascore < Bscore:
-    Awin = 0
-else:
-    Awin = 0.5
-new_results = {'id': match_id,
-     'Ateam': Ateam,
-     'BTeam': Bteam,
-     'Ascore': Ascore,
-     'Bscore': Bscore,
-     'Awin': Awin}
-results = results.append(new_results, ignore_index = True)
-
-# save
-results.to_csv('csv/results.csv', index = False)
-np.save('npy/TrueSkill_Rating_' + dt.datetime.now().strftime("%d_%m_%Y") + "_Game" + match_id + '.npy', rating)
