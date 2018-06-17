@@ -17,9 +17,9 @@ import matplotlib.pyplot as plt
 # ---------------------------------------------------------------------------- #
 
 # match-up parameter
-match_id = '5'
-Ateam = "France"
-Bteam = "Australia"
+match_id = '11'
+Ateam = "Brazil"
+Bteam = "Switzerland"
 
 # ---------------------------------------------------------------------------- #
 
@@ -44,7 +44,7 @@ rating = np.load(latest_rating).item()
 Acomp = rating[Ateam]
 Bcomp = rating[Bteam]
 
-# win prob
+# Awin prob
 def win_probability(Acomp, Bcomp, env = trueskill.global_env()):
     delta_mu = sum(Acomp[r].mu for r in Acomp.keys()) - sum(Bcomp[r].mu for r in Bcomp.keys())
     sum_sigma = sum(Acomp[r].sigma ** 2 for r in Acomp.keys()) + sum(Bcomp[r].sigma ** 2 for r in Bcomp.keys())
@@ -55,6 +55,9 @@ def win_probability(Acomp, Bcomp, env = trueskill.global_env()):
 win_prob = win_probability(Acomp, Bcomp, env)
 print(Ateam + ' winning probability is ' + str(round(win_prob * 100, 2)) + "%")
 print(Bteam + ' winning probability is ' + str(round((1 - win_prob) * 100, 2)) + "%")
+
+# draw prob
+print('{:0.1%} change to draw'.format(trueskill.quality([Acomp, Bcomp])))
 
 # plot
 height = [win_prob, 1 - win_prob]

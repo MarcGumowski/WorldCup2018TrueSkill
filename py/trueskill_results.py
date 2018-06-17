@@ -3,8 +3,8 @@
 # Ver: 0.01
 # ---------------------------------------------------------------------------- #
 #
-# Write manually the score of each match after running trueskill_match.py
-# to get probabilities
+# 1. run trueskill_match.py to get probabilities
+# 2. run trueskill results to update rating and print results sheet
 #
 # ---------------------------------------------------------------------------- #
 
@@ -14,8 +14,8 @@ import datetime as dt
 # ---------------------------------------------------------------------------- #
 
 # After game parameters
-Ascore = 3
-Bscore = 3
+Ascore = 1
+Bscore = 1
 
 # ---------------------------------------------------------------------------- #
 
