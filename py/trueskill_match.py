@@ -17,9 +17,9 @@ import matplotlib.pyplot as plt
 # ---------------------------------------------------------------------------- #
 
 # match-up parameter
-match_id = '13' # 13 Belgium Panama
-Ateam = "Belgium"
-Bteam = "Panama"
+match_id = '17' # 17 Russia Egypt
+Ateam = "Russia"
+Bteam = "Egypt"
 
 # ---------------------------------------------------------------------------- #
 
@@ -57,7 +57,7 @@ print(Ateam + ' winning probability is ' + str(round(win_prob * 100, 2)) + "%")
 print(Bteam + ' winning probability is ' + str(round((1 - win_prob) * 100, 2)) + "%")
 
 # draw prob
-print('{:0.1%} change to draw'.format(trueskill.quality([Acomp, Bcomp])))
+print('{:0.1%} chance to draw'.format(trueskill.quality([Acomp, Bcomp])))
 
 # plot
 height = [win_prob, 1 - win_prob]
