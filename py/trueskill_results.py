@@ -14,17 +14,19 @@ import datetime as dt
 # ---------------------------------------------------------------------------- #
 
 # After game parameters
-Ascore = 3
-Bscore = 1
+Ascore = 1
+Bscore = 0
 
 # ---------------------------------------------------------------------------- #
 
 # get match data
-os.chdir('C:/Users/Gumistar/Documents/GitHub/WorldCup2018TrueSkill')
+os.chdir('C:/Users/Marc Gumowski/Documents/GitHub/WorldCup2018TrueSkill')
+# os.chdir('C:/Users/Gumistar/Documents/GitHub/WorldCup2018TrueSkill')
 execfile('py/trueskill_match.py')
 
 # get latest results
-os.chdir('C:/Users/Gumistar/Documents/GitHub/WorldCup2018TrueSkill')
+os.chdir('C:/Users/Marc Gumowski/Documents/GitHub/WorldCup2018TrueSkill')
+# os.chdir('C:/Users/Gumistar/Documents/GitHub/WorldCup2018TrueSkill')
 results = pd.read_csv('csv/results.csv')
 
 # append results
