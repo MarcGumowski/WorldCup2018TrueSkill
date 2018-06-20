@@ -46,8 +46,8 @@ url  <- "https://www.whoscored.com/Statistics"
 # TrueSkill --------------------------------------------------------------------
 
 # Matchup
-Ateam <- "Uruguay"
-Bteam <- "Saudi Arabia"
+Ateam <- "Iran"
+Bteam <- "Spain"
 
 # Composition
 
