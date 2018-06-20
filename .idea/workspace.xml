@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a16e8860-310d-4ad4-b63c-5d333f1cf3e4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/r/trueSkill.R" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csv/results.csv" afterPath="$PROJECT_DIR$/csv/results.csv" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,21 +32,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trueskill_match.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="trueskill_match.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py/trueskill_match.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trueskill_results.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="trueskill_results.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py/trueskill_results.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="21" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="116" />
+            <state relative-caret-position="272">
+              <caret line="28" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="116" />
               <folding>
                 <element signature="e#408#427#0" expanded="true" />
               </folding>
@@ -495,21 +495,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py/trueskill_results.py">
+    <entry file="file://$PROJECT_DIR$/py/trueskill_match.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="116" />
-          <folding>
-            <element signature="e#408#427#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py/trueskill_match.py">
+    <entry file="file://$PROJECT_DIR$/py/trueskill_results.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="272">
+          <caret line="28" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="116" />
+          <folding>
+            <element signature="e#408#427#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
