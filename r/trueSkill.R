@@ -46,7 +46,7 @@ url  <- "https://www.whoscored.com/Statistics"
 # TrueSkill --------------------------------------------------------------------
 
 # Matchup
-Ateam <- "Russia"
+Ateam <- "Uruguay"
 Bteam <- "Saudi Arabia"
 
 # Composition

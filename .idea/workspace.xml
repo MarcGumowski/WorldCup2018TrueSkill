@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a16e8860-310d-4ad4-b63c-5d333f1cf3e4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/WorldCup2018TrueSkill.iml" afterPath="$PROJECT_DIR$/.idea/WorldCup2018TrueSkill.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csv/results.csv" afterPath="$PROJECT_DIR$/csv/results.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py/trueskill_match.py" afterPath="$PROJECT_DIR$/py/trueskill_match.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py/trueskill_results.py" afterPath="$PROJECT_DIR$/py/trueskill_results.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/r/elo.R" afterPath="$PROJECT_DIR$/r/elo.R" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/r/trueSkill.R" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
