@@ -19,3 +19,6 @@ id,Ateam,BTeam,Ascore,Bscore,Awin
 18,Portugal,Morocco,1,0,1.0
 19,Uruguay,Saudi Arabia,1,0,1.0
 20,Iran,Spain,0,1,0.0
+21,Denmark,Australia,1,1,0.5
+22,France,Peru,1,0,1.0
+23,Argentina,Croatia,0,3,0.0

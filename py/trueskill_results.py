@@ -15,7 +15,7 @@ import datetime as dt
 
 # After game parameters
 Ascore = 0
-Bscore = 1
+Bscore = 3
 
 # ---------------------------------------------------------------------------- #
 
