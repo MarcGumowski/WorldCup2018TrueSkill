@@ -17,9 +17,9 @@ import matplotlib.pyplot as plt
 # ---------------------------------------------------------------------------- #
 
 # match-up parameter
-match_id = '23' # 23 Arg Cro
-Ateam = "Argentina"
-Bteam = "Croatia"
+match_id = '26' # 26 Srb Sui
+Ateam = "Serbia"
+Bteam = "Switzerland"
 
 # ---------------------------------------------------------------------------- #
 
@@ -31,8 +31,8 @@ env = trueskill.TrueSkill(mu = mu, sigma = sigma)
 env.create_rating()
 
 # get latest rating
-os.chdir('C:/Users/Marc Gumowski/Documents/GitHub/WorldCup2018TrueSkill/npy')
-# os.chdir('C:/Users/Gumistar/Documents/GitHub/WorldCup2018TrueSkill/npy')
+# os.chdir('C:/Users/Marc Gumowski/Documents/GitHub/WorldCup2018TrueSkill/npy')
+os.chdir('C:/Users/Gumistar/Documents/GitHub/WorldCup2018TrueSkill/npy')
 latest_rating = max(os.listdir(os.getcwd()), key = os.path.getmtime)
 # control id not to predict in-sample
 control = re.search('[^._]+(?=[^_]*$)', latest_rating)[0]
