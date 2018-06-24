@@ -32,8 +32,8 @@ rating <- fread("csv/teamRating_15_06_2018.csv", encoding = "UTF-8")
 # Elo -------------------------------------------------------------------------
 
 # Matchup
-Ateam <- "Nigeria"
-Bteam <- "Iceland"
+Ateam <- "England"
+Bteam <- "Panama"
 
 # Team
 a <- rating[Team %in% Ateam, ]
