@@ -35,3 +35,7 @@ id,Ateam,BTeam,Ascore,Bscore,Awin
 34,Uruguay,Russia,3,0,1.0
 35,Iran,Portugal,1,1,0.5
 36,Spain,Morocco,2,2,0.5
+37,Denmark,France,0,0,0.5
+38,Australia,Peru,0,2,0.0
+39,Nigeria,Argentina,1,2,0.0
+40,Iceland,Croatia,1,2,0.0
