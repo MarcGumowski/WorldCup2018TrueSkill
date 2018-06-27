@@ -34,8 +34,8 @@
       <file leaf-file-name="trueskill_match.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py/trueskill_match.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="170">
+              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding>
                 <element signature="e#331#349#0" expanded="true" />
               </folding>
@@ -46,8 +46,8 @@
       <file leaf-file-name="trueskill_results.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py/trueskill_results.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="116" />
+            <state relative-caret-position="374">
+              <caret line="22" column="70" lean-forward="false" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
               <folding>
                 <element signature="e#408#427#0" expanded="true" />
               </folding>
@@ -709,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/py/trueskill_match.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="170">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding>
             <element signature="e#331#349#0" expanded="true" />
           </folding>
@@ -719,8 +719,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/py/trueskill_results.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="116" />
+        <state relative-caret-position="374">
+          <caret line="22" column="70" lean-forward="false" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
           <folding>
             <element signature="e#408#427#0" expanded="true" />
           </folding>
